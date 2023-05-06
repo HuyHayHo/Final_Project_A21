@@ -49,7 +49,7 @@
         scanf("%s", students[i].studentID);
         printf("Full Name: ");
         scanf(" %[^\n]s", students[i].fullName);
-        printf("Birthdate (dd/mm/yyyy): ");
+        printf("Birthdate (dd mm yyyy): ");
         scanf("%d %d %d", &students[i].birthdate.bir, &students[i].birthdate.thd, &students[i].birthdate.ate);
         do
         {
